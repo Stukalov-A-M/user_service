@@ -1,0 +1,12 @@
+[package]
+name = "user_service"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "^4"
+diesel = "^2"
+serde = { version = "^1", features = ["derive"] }
+uuid = "^1"
+strum = { version = "0.26.1", features = ["derive"] }
+env_logger = "0.11.5"
